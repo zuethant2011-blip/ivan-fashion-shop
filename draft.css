@@ -1,0 +1,20 @@
+.super {
+  position: relative; /* makes children position inside this section */
+  width: fit-content;
+}
+
+.super .bg {
+  width: 100%;
+  display: block;
+}
+
+.super .coat {
+  position: absolute; /* allows overlap */
+  top: 50px;          /* move down */
+  left: 100px;        /* move right */
+
+  width: 200px;       /* adjust coat size */
+  z-index: 2;         /* ensures coat stays on top */
+}
+
+/* 09457027122 */
